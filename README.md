@@ -18,9 +18,15 @@ A data structure used for range queries. It uses Balanced binary search tree for
 - Search Complexity for n-dimensional space O(log^d n + k)
 - This data structure is best used for searching only and constructs a Range Tree once and stores it for search operations, hence deletion and insertion are not of much interest.
 
-## Implementation
+## Testing/How to run our application
 
 - We have implemented 1D and 2D range tree to process COVID-19 data of South Asian countries obtained from https://ourworldindata.org/coronavirus.
+
+- Pre-Requirements to run this application:
+   -In order to run our application for the testing (searching) purposes you need to install tkinter. Tkinter is the standard GUI library for Python which provides a fast and       easy way to create GUI applications. It provides a powerful object-oriented interface to the Tk GUI toolkit. You may write pip install tkinter in your terminal for the said     installation. This will get tkinter installed in your local PC. 
+   -As we have added calendar in our application, we have used  tkcalendar for this purpose. Tkcalendar is a python module that provides the Calendar and DateEntry widgets for       Tkinter. For installation of tkcalendar you may use command i.e. pip install tkcalendar.
+   -In our code, we have written some import statements which have been associated with the libraries mentioned above that allow us to use specific functionalities of these         libraries.
+   
 - Our interface includes a forms in which the user can perform the following steps to retrieve data:
   - Select a country name or select 'All' countries by default in the drop down list
   - Select the starting date and ending date to view data of the country/countries within the desired dates. The user can then press the search button to retrieve all the records between the given range of dates (which is our 1D search) or can enter add another field to filter the information further (this would lead to 2D search).
@@ -36,5 +42,18 @@ For detailed insight on our implemention and demonstration, refer to our video p
 
 - Shalin Ali : Implemented construction of 1D and 2D range trees.
 - Mubaraka Shabbir : Implemented 1D and 2D range searching
-- Sana Fatima : Interfacing the code with forms
-- Areesha Najam : Interfacing the code with forms
+- Sana Fatima : Interfacing the code with forms (GUI), linking code with GUI forms and preparing narration (story and slides) for demo.
+- Areesha Najam : Interfacing the code with forms(GUI), linking code with GUI forms and preparing narration (story and slides) for demo.
+
+## References
+
+-Data Set:
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw47eFBhA9EiwAy8kzNPyeMQ8wQYTIwduTrcqZdbx-qbgAjOJHsbfaY4jQxjwfeo66WwO1pBoCxA0QAvD_BwE
+
+-Basic Understanding of Range Trees:
+https://www.cise.ufl.edu/class/cot5520sp18/CG_RangeTrees.pdf
+
+-Animated pictures for story telling:
+https://www.dreamstime.com
+
+
